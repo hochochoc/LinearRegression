@@ -14,7 +14,7 @@ data_set khi đưa vào mô hình học sẽ được mở rộng nhờ hàm (ba
 - save_model(path): cho phép người dùng lưu lại model học vừa được xây dựng (hay chính là lưu lại tham số w)
 - load_model(path): load model đã được lưu lại lên để phục vụ công việc predict những điểm dữ liệu khác
 - predict(predict_data): để phục vụ việc predict một hoặc nhiều điểm dữ liệu. Dữ liệu thô người dùng muốn predict, sau khi được mở rộng thành ma trận dữ liệu mở rộng thông qua hàm bar_data(predict_data), sẽ được predict giá trị đầu ra phụ thuộc vào tham số học w mà ta đã tính toán ở phía trên.
-6. Sau khi xây dựng xong mô hình học Linear Regression, em đã test với bộ dữ liệu thầy phân, và ghi kết quả predict ra file "20141869.csv"
+6. Sau khi xây dựng xong mô hình học Linear Regression, em đã test với bộ dữ liệu thầy phân, và ghi kết quả predict ra file 
 Những thiếu sót trong quá trình xây dựng mô hình học:
 - Chưa xây dựng hàm tính điểm cho mô hình học
 - Dữ liệu train còn nhỏ, kết quả predict độ chính xác thấp
